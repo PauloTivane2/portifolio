@@ -53,43 +53,43 @@ function ProjectCard({ title, description, image, demoLink, githubLink }: Projec
 export function Projects() {
   const projects = [
     {
-      title: "NFT Marketplace Dashboard",
-      description: "A modern dashboard for NFT trading with real-time updates and analytics.",
+      title: "Planilhas Automatizadas Acadêmicas",
+      description: "Sistema de gestão académica com cálculos automáticos de notas e relatórios de desempenho estudantil.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "E-commerce Platform",
-      description: "Full-featured e-commerce solution with cart, checkout, and payment integration.",
+      title: "Sistema de Registro de Vacinação",
+      description: "Aplicação para controlo e gestão de campanhas de vacinação com base de dados integrada.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "Social Media App",
-      description: "Real-time social media platform with messaging and post sharing features.",
+      title: "Projeto de Gestão de Biblioteca",
+      description: "Sistema académico para gestão de empréstimos, devoluções e inventário de livros.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "Task Management Tool",
-      description: "Collaborative task management app with drag-and-drop interface.",
+      title: "Aplicação de Análise de Dados",
+      description: "Ferramenta para processamento e visualização de dados estatísticos com Python.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "Weather Dashboard",
-      description: "Weather forecasting app with interactive maps and real-time updates.",
+      title: "Sistema de Suporte Técnico",
+      description: "Plataforma para gestão de tickets e resolução de problemas técnicos organizacionais.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
     },
     {
-      title: "Fitness Tracking App",
-      description: "Personal fitness tracker with workout plans and progress monitoring.",
+      title: "Base de Dados Empresarial",
+      description: "Sistema de gestão de dados empresariais com SQL e interface de utilizador intuitiva.",
       image: "/placeholder.svg?height=300&width=400",
       demoLink: "#",
       githubLink: "#",
@@ -99,10 +99,10 @@ export function Projects() {
   return (
     <section className="py-16" id="works">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
+        <h2 className="text-3xl font-bold mb-4">Projetos em Destaque</h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          Explore my latest web development projects. Each project demonstrates my commitment to creating innovative and
-          user-friendly digital solutions.
+          Explore os meus projetos mais recentes. Cada projeto demonstra o meu compromisso em criar soluções 
+          digitais inovadoras e funcionais.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

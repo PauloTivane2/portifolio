@@ -28,27 +28,35 @@ function TestimonialCard({ content, author, position, image }: TestimonialProps)
 export function Testimonials() {
   const testimonials = [
     {
-      author: "Sarah Johnson",
-      position: "CEO at TechStart",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=60",
+      author: "Prof. Dr. António Silva",
+      position: "Docente de Engenharia Informática",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&auto=format&fit=crop&q=60",
       content:
-        "Working with this developer was an absolute pleasure. Their attention to detail and creative solutions made our project a success.",
+        "Paulo demonstra excepcional dedicação e organização nos seus projetos académicos. A sua capacidade de resolver problemas complexos e trabalhar em equipe é notável.",
     },
     {
-      author: "Michael Chen",
-      position: "Product Manager",
+      author: "Eng. Maria Santos",
+      position: "Supervisora de Estágio",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=60",
+      content:
+        "Trabalhar com o Paulo foi uma experiência excelente. A sua rapidez na resolução de problemas técnicos e atenção aos detalhes superaram as nossas expectativas.",
+    },
+    {
+      author: "João Macuácua",
+      position: "Colega de Curso",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&auto=format&fit=crop&q=60",
       content:
-        "Exceptional work! The developer delivered beyond our expectations and was always responsive to our needs.",
+        "Paulo é um excelente colega de equipe. A sua organização e conhecimento técnico em Java e Python foram fundamentais para o sucesso dos nossos projetos académicos.",
     },
   ]
 
   return (
     <section className="py-16" id="testimonials">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Client Testimonials</h2>
+        <h2 className="text-3xl font-bold mb-4">Depoimentos</h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          Don't just take my word for it. Here's what my clients have to say about their experiences working with me.
+          Não acredite apenas na minha palavra. Veja o que professores, supervisores e colegas têm a dizer sobre 
+          a experiência de trabalhar comigo.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
