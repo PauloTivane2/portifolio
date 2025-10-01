@@ -1,23 +1,21 @@
-Paulo Tivane – Portfólio 💻
+Paulo Tivane – Portfólio Profissional 💼
 
-Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para apresentar meus trabalhos, serviços e experiências na área de Engenharia Informática e desenvolvimento de software.
-
-O portfólio funciona como uma vitrine digital para demonstrar profissionalismo, organização e habilidades técnicas.
+Bem-vindo ao repositório do meu portfólio! Este projeto apresenta meus trabalhos, serviços e experiências na área de Engenharia Informática e Desenvolvimento de Software, funcionando como uma vitrine digital do meu profissionalismo e habilidades técnicas.
 
 
 ---
 
 🚀 Tecnologias Utilizadas
 
-Next.js 15 – Framework React para aplicações web modernas
+Next.js 15 – Framework React moderno para aplicações web.
 
-Sanity v4 – CMS Headless para gerenciamento de conteúdo
+Sanity v4 – CMS Headless para gerenciamento de conteúdo.
 
-Tailwind CSS – Estilização moderna e responsiva
+Tailwind CSS – Estilização responsiva e moderna.
 
-TypeScript – Tipagem estática para maior segurança no código
+TypeScript – Tipagem estática para maior segurança e escalabilidade.
 
-@sanity/client & @sanity/image-url – Integração com dados e imagens
+@sanity/client & @sanity/image-url – Integração com dados e imagens do CMS.
 
 
 
@@ -34,18 +32,18 @@ TypeScript – Tipagem estática para maior segurança no código
 │   ├── layout/
 │   ├── sections/
 │   └── ui/
-├── lib/                # Configurações e utils do Sanity
+├── lib/                # Configurações e utilitários do Sanity
 │   ├── sanity.js
 │   ├── sanity-utils.js
 │   └── utils.ts
-├── public/             # Imagens públicas e logos
+├── public/             # Recursos públicos (imagens, logos)
 ├── sanity/             # Schemas e configuração do CMS
 │   ├── schemas/
 │   └── sanity.config.js
 ├── styles/             # Estilos adicionais
 ├── .env                # Variáveis de ambiente
-├── package.json
-└── README.md
+├── package.json        # Gerenciador de pacotes
+└── README.md           # Documentação do projeto
 
 
 ---
@@ -61,7 +59,7 @@ Instale as dependências:
 
 npm install
 
-Crie o arquivo .env na raiz do projeto e adicione:
+Crie o arquivo .env na raiz do projeto com as seguintes variáveis:
 
 NEXT_PUBLIC_SANITY_PROJECT_ID=e69aec5k
 NEXT_PUBLIC_SANITY_DATASET=production
@@ -70,16 +68,36 @@ Execute o projeto em modo desenvolvimento:
 
 npm run dev
 
-O app estará disponível em: http://localhost:3000
+Acesse o projeto em: http://localhost:3000
 
 
 ---
 
 📡 Deploy
 
-Este projeto pode ser hospedado em:
+Hospede o projeto em plataformas compatíveis:
 
-[Vercel](
+Vercel – recomendado para Next.js
+
+Sanity Studio – CMS para gerenciamento de conteúdo
 
 
-# portifolio
+Para publicar o Studio do Sanity:
+
+npx sanity deploy
+
+
+---
+
+📧 Contato
+
+Paulo Babucho Issaca Tivane
+📍 Beira, Moçambique
+📩 tivanepaulo2@gmail.com
+🔗 LinkedIn
+
+
+---
+
+✨ Obrigado por visitar meu portfólio! Feedbacks e colaborações são sempre bem-vindos. Abra uma issue ou entre em contato para se conectar.
+
